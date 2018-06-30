@@ -1,0 +1,34 @@
+Properties:
+
+Almost all JavaScript values have properties. The exceptions are null and undefined. If you try to access a property on one of these nonvalues, you get an error.
+
+The elements in an array are stored as the array's properties, using numbers as property names.
+
+Properties whose names aren't valid binding names or valid numbers have to be quoted.
+
+Methods:
+
+Properties that contain functions are generally called methods of the value they belong to, as in "toUpperCase is a method of a string".
+
+Objects:
+
+The binary 'in' operator, when applied to a string and an object, tells you whether that object has a property with that name.
+
+When you compare objects with JavaScript's == or === operator, it compares by identity: it will produce true only if both objects are precisely the same value. Comparing different objects will return false, even if they have identical properties. There is no "deep" comparison operation built into JavaScript, which compares objects by contents.
+
+If a property name in brace notation isn't followed by a value, its value is taken from the binding with the same name. See below.
+function addEntry(events, squirrel) {
+  journal.push({events, squirrel});
+}
+
+Mutability: 
+
+Numbers, strings, and Booleans are immutable - can't change values.
+
+Objects are mutable because their properties can change.
+
+Though a const binding to an object can itself not be changed and will continue to point at the same object,t he contents of that object can change.
+
+Arrays:
+
+Arrays have an 'includes' method that checks whether a given value exists in the array. 
