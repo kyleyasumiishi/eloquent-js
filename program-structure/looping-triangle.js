@@ -11,9 +11,8 @@ Write a loop that makes seven calls to console.log to output the following trian
 */
 
 let size = 7;
-let string = "";
+let hashtag = "#";
 for (let i = 1; i <= size; i++) {
-  string += "#";
-  console.log(string);
+  console.log(hashtag.repeat(i));
 }
 
