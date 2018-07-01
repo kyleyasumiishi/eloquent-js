@@ -4,7 +4,7 @@ This repository will contain my solutions to the end-of-chapter problems and pro
 
 ## Table of Contents
 
-Each chapter of this amazing books has end-of-chapter problems as well as several chapters dedicated entirely to building projects. This repository is organized in a similar fashion.
+Each chapter of this amazing book has end-of-chapter problems as well as several chapters dedicated entirely to building projects. This repository is organized in a similar fashion.
 
 Part 1: Language
 
