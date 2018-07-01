@@ -1,4 +1,4 @@
-function range(start, end, step = 1) {
+function range(start, end, step = start < end ? 1 : -1) {
   const range = [];
   if (start < end) {
     for (let i = start; i <= end; i += step) {
