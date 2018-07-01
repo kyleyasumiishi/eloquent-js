@@ -32,3 +32,6 @@ Though a const binding to an object can itself not be changed and will continue 
 Arrays:
 
 Arrays have an 'includes' method that checks whether a given value exists in the array. 
+
+To go over arrays or strings one element at a time, you can use a for-of loop.
+
